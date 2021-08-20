@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": [
+    "Aptech003/src",
+    "Aptech004/src",
+    "Aptech004DemoEncap/src",
+    "Aptech004DemoJar/src"
+  ],
+  "cSpell.words": [
+    "pheptinh"
+  ]
+}

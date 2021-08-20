@@ -1,0 +1,13 @@
+package app;
+
+import helper.Validation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Validation.CheckRegex("[]","Vui long nhập số nguyên: ");
+		
+
+	}
+
+}

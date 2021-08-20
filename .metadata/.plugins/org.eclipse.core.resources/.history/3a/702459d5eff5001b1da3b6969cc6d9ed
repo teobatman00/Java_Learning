@@ -1,0 +1,13 @@
+package app;
+
+import dao.ListProduct;
+import menu.MenuShow;
+
+
+public class Run {
+
+	public static void main(String[] args) {
+		MenuShow.callMenu();
+	}
+
+}

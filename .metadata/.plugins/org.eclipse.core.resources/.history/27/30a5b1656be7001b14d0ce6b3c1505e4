@@ -1,0 +1,36 @@
+<?php 
+
+class Product {
+
+    private $id;
+    private $name;
+    private $exp;
+
+    //Construct 
+    public function __construct()
+    {
+        $this->id = 0;
+        $this->name = "chua co";
+        $this->exp = "999";
+    }
+    
+    //setter and getter => ham function
+    public function setId($id){
+        $this->id = $id;
+    }
+
+    // getter: cho phep ben ngoai lay ra de lam gi do 
+    public function getId(){
+        return $this->id;
+    }
+    
+    public function hello(){
+        return "Hello";
+    }
+    
+    public function __toString()
+    {
+        return "Ma Hang Hoa: {$this->id}<br/>"."Ten Hang Hoa: {$this->name}<br/>"."Thoi han Hang Hoa: {$this->exp}<br/>";
+    }
+
+}

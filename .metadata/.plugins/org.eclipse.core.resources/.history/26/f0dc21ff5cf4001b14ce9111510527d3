@@ -1,0 +1,13 @@
+package app;
+
+import helper.Validation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String chuoi = Validation.CheckRegex("[0-9]+","Vui long nhập số nguyên: ");
+		int number = Integer.parseInt(chuoi);
+
+	}
+
+}

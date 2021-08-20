@@ -1,0 +1,15 @@
+package app;
+
+import models.Product;
+
+public class Run {
+
+	public static void main(String[] args) {
+		Product pro = new Product();
+		pro.insertProduct();
+		System.out.println(pro);
+		
+		ListProduct list = new ListProduct()
+	}
+
+}

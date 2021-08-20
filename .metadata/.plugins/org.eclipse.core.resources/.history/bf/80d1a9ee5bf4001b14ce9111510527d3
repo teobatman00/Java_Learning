@@ -1,0 +1,12 @@
+package helper;
+
+import java.util.Scanner;
+
+public class Validation {
+	
+	public static String CheckRegex(String regex ,String message) {
+		Scanner sc = new Scanner(System.in)
+		return "";
+	}
+	
+}

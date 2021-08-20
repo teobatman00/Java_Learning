@@ -1,0 +1,7 @@
+package helper;
+
+public final class RegexConst {
+	public final cons static String NUM = "[0-9]+";
+	
+	
+}

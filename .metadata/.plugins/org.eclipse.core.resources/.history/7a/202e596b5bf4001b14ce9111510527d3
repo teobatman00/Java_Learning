@@ -1,0 +1,9 @@
+package helper;
+
+public class Validation {
+	
+	public static void CheckRegex() {
+		
+	}
+	
+}

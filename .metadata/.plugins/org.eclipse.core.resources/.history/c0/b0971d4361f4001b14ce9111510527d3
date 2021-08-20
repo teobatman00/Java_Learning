@@ -1,0 +1,73 @@
+package models;
+
+import java.time.LocalDate;
+
+public class Product {
+	
+	private int proId;
+	private String proName;
+	private boolean status;
+	private LocalDate mfgDate;
+	private double price;
+	
+	public Product() {}
+
+	public Product(int proId, String proName, boolean status, LocalDate mfgDate, double price) {
+		this.proId = proId;
+		this.proName = proName;
+		this.status = status;
+		this.mfgDate = mfgDate;
+		this.price = price;
+	}
+
+	public int getProId() {
+		return proId;
+	}
+
+	public void setProId(int proId) {
+		this.proId = proId;
+	}
+
+	public String getProName() {
+		return proName;
+	}
+
+	public void setProName(String proName) {
+		this.proName = proName;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+	public LocalDate getMfgDate() {
+		return mfgDate;
+	}
+
+	public void setMfgDate(LocalDate mfgDate) {
+		this.mfgDate = mfgDate;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [proId=" + proId + ", proName=" + proName + ", status=" + status + ", mfgDate=" + mfgDate
+				+ ", price=" + price + "]";
+	}
+	
+	public void insertProduct() {
+		return "aa';
+	}
+	
+}

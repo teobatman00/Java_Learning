@@ -1,0 +1,47 @@
+package dao;
+
+import java.util.*;
+
+import helper.RegexConst;
+import helper.Validation;
+import models.Product;
+
+public class ListProduct {
+
+	private List<Product> listPro;
+	
+	public ListProduct () {
+		listPro = new ArrayList<>();
+	}
+	
+	public List<Product> getListPro(){
+		return listPro;
+	}
+
+	public void setListPro(List<Product> listPro) {
+		this.listPro = listPro;
+	}
+	
+	public void insertListProduct() {
+		Product pro = new Product();
+		pro.insertProduct();
+		listPro.add(pro);
+	}
+	
+	public void selectListProduct() {
+		listPro.forEach(System.out::println);
+	}
+	
+	public void deleteProIdInList(int proId) {
+		listPro.removeIf(pro->pro.getProId() == proId);
+	}
+	
+	public void updateProIdInList(int proId) {
+		listPro.stream().forEach(pro->{
+			if(pro.getProId()==proId) {
+				pro.setProName(Validation.CheckRegex(RegexConst.NUM,"Enter product Name: "));
+			}
+		});
+	}
+	
+}

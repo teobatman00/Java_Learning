@@ -1,0 +1,13 @@
+package app;
+
+
+import menu.MenuShow;
+import models.Product;
+
+public class Run {
+
+	public static void main(String[] args) {
+		MenuShow.callMenu();
+	}
+
+}
